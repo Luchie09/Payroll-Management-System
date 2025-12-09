@@ -308,7 +308,7 @@ public class AdminTimesheetPanel extends JPanel {
     // Create accent button for important actions
     private JButton createAccentButton(String text) {
         JButton b = createModernButton(text);
-        b.setBackground(new Color(200, 120, 0));
+        b.setBackground(new Color(60, 63, 65));
         b.addMouseListener(new MouseAdapter() {
             public void mouseEntered(MouseEvent e) {
                 b.setBackground(new Color(220, 140, 20));

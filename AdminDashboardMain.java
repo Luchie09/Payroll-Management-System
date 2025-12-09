@@ -49,14 +49,14 @@ public class AdminDashboardMain extends JFrame {
 
         // Logout button
         JMenuItem logoutItem = new JMenuItem("Logout");
-        logoutItem.setBackground(new Color(200, 120, 0));
-        logoutItem.setForeground(Color.BLACK);
+        logoutItem.setBackground(new Color(60, 63, 65));
+        logoutItem.setForeground(Color.WHITE);
         logoutItem.addActionListener(e -> logout());
 
         // Exit program
         JMenuItem exitItem = new JMenuItem("Exit");
-        exitItem.setBackground(new Color(200, 120, 0));
-        exitItem.setForeground(Color.BLACK);
+        exitItem.setBackground(new Color(60, 63, 65));
+        exitItem.setForeground(Color.WHITE);
         exitItem.addActionListener(e -> System.exit(0));
 
         fileMenu.add(logoutItem);
