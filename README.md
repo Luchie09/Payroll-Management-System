@@ -49,8 +49,6 @@ Part I: Installation
    - Choose Start the MySQL Server at System Startup.
    - Select Standard System Account for the service to run under.
    - Click Next.
-
-
 9. Set Server File Permissions
    - Choose Yes, grant full access to the user running the Windows Service….
    - Click Next.
@@ -107,7 +105,3 @@ Password: 1234
 
 
 
-
----
-
-Let me know if you'd like a more visual guide or troubleshooting tips!
