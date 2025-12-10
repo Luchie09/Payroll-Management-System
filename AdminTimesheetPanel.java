@@ -311,11 +311,11 @@ public class AdminTimesheetPanel extends JPanel {
         b.setBackground(new Color(60, 63, 65));
         b.addMouseListener(new MouseAdapter() {
             public void mouseEntered(MouseEvent e) {
-                b.setBackground(new Color(220, 140, 20));
+                b.setBackground(new Color(85, 90, 92));
             }
 
             public void mouseExited(MouseEvent e) {
-                b.setBackground(new Color(200, 120, 0));
+                b.setBackground(new Color(60, 63, 65));
             }
         });
         return b;

@@ -268,8 +268,8 @@ public class AdminEmployeePanel extends JPanel {
         if (r >= 0) {
             Object idObj = table.getValueAt(r, 0);
             if (idObj instanceof Number) {
-                showEmployeeDialog("Edit", ((Number) idObj).intValue()); 
-            }else {
+                showEmployeeDialog("Edit", ((Number) idObj).intValue());
+            } else {
                 JOptionPane.showMessageDialog(this, "Selected row doesn't have a valid EmployeeID.");
             }
         } else {
@@ -501,16 +501,16 @@ public class AdminEmployeePanel extends JPanel {
 
     private JButton createAccentButton(String text) {
         JButton b = createModernButton(text);
-        b.setBackground(new Color(200, 120, 0));
+        b.setBackground(new Color(60, 63, 65));
         b.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseEntered(MouseEvent e) {
-                b.setBackground(new Color(220, 140, 20));
+                b.setBackground(new Color(85, 90, 92));
             }
 
             @Override
             public void mouseExited(MouseEvent e) {
-                b.setBackground(new Color(200, 120, 0));
+                b.setBackground(new Color(60, 63, 65));
             }
         });
         return b;
