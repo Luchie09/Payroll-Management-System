@@ -101,8 +101,3 @@ Default Admin Credentials
 Use the following credentials to access the Admin Dashboard:
 Username: admi
 Password: 1234
-
-
-
-
-
