@@ -5,6 +5,7 @@ By automating essential processes such as employee registration, salary computat
 consistency, reduce manual errors, and streamline overall payroll management operations.
 
 To fully access and run this program. You must follow these requirements and steps-by-step procedures:
+
 Preliminaries:
 You must install or have the following tools and technologies;
 - Visual Studio Code: https://code.visualstudio.com/docs
